@@ -6,35 +6,36 @@
 [![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-> **Disclaimer: This project is only for personal learning and communication, please do not use it for illegal purposes, please do not use it in a production environment**
+:warning: **This project is intended for personal learning and communication purposes only. Please refrain from using it for illegal activities or in a production environment.**
 
-**If you think this project is helpful to you, you may wish to give a** :star2:
+:star: If you find this project helpful, you can show your appreciation by giving it a **star** in the upper right corner. Thank you!
 
-xray panel supporting multi-protocol, **Multi-lang (English,Farsi,Chinese)**
+:gem: X-ray panel with multi-protocol support and multi-language options (English, Farsi, Chinese).
 
-# Install & Upgrade
 
-```
+# Quick and Easy Installation and Upgrades
+
+```bash
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
 
-## Install custom version
+## install a Customized Version
 
-To install your desired version you can add the version to the end of install command. Example for ver `v1.2.6`:
+To install the specific version you desire, simply add the version number at the end of the install command. Here's an example for version v1.2.6:
 
-```
+```bash
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v1.2.6
 ```
 
 # SSL
 
-```
+```bash
 apt-get install certbot -y
 certbot certonly --standalone --agree-tos --register-unsafely-without-email -d yourdomain.com
 certbot renew --dry-run
 ```
 
-# Default settings
+# Default Settings
 
 - Port: 2053
 - username and password will be generated randomly if you skip to modify your own security(x-ui "7")
